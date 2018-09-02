@@ -1,0 +1,25 @@
+{
+    "name": "poznet/bbcodeparser",
+    "description": "For Parsing BBCode",
+    "keywords": ["bbcode", "parser", "laravel", "psr-1", "psr-2", "psr-4","golonka"],
+    "homepage": "https://github.com/poznet/bbcodeparser",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "poznet"
+
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4",
+        "squizlabs/php_codesniffer": "~2"
+    },
+    "autoload": {
+        "psr-4": {"poznet\\BBCode\\": "src/"}
+    },
+    "minimum-stability": "stable"
+}
